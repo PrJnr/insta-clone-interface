@@ -13,7 +13,7 @@ Clone da interface do instagram, afim de estudar estilização em React Native e
 
 
 <h2 align="center">
-    <img alt="app" src="./src/img/imgApp.jpeg" width="300px" height="600px" />
+    <img alt="app" src="./src/img/imgApp.jpeg" width="400px" height="600px" />
 </h2>
 
 
