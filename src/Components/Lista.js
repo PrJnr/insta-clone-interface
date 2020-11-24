@@ -10,6 +10,7 @@ import {
     Image,
     TouchableOpacity,
     TouchableWithoutFeedback,
+    FlatList,
 } from 'react-native';
 
 class Lista extends Component {
@@ -144,12 +145,12 @@ const styles = StyleSheet.create({
         fontSize: 15,
         textAlign: 'left',
         color: '#000000',
-        paddingLeft: 5,
+        paddingLeft: 8,
     },
     fotoPerfil: {
-        width: 45,
-        height: 45,
-        borderRadius: 22.5,
+        width: 35,
+        height: 35,
+        borderRadius: 17.5,
     },
     areaPerfil: {
         flex: 1,

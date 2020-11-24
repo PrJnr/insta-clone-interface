@@ -10,7 +10,10 @@ import {
     Image,
     TouchableOpacity,
     FlatList,
+    ScrollView,
 } from 'react-native';
+
+import Stories from './src/Components/Stories';
 
 import Lista from './src/Components/Lista';
 
@@ -73,12 +76,18 @@ class App extends Component {
                         />
                     </TouchableOpacity>
                 </View>
-                <FlatList
-                    keyExtractor={(item) => item.id}
-                    showsVerticalScrollIndicator={false}
-                    data={state.feed}
-                    renderItem={({ item }) => <Lista data={item} />}
-                />
+
+                <ScrollView showsVerticalScrollIndicator={false}>
+                    <View style={styles.areaStories}>
+                        <Stories data={this.state.feed} />
+                    </View>
+                    <FlatList
+                        keyExtractor={(item) => item.id}
+                        showsVerticalScrollIndicator={false}
+                        data={state.feed}
+                        renderItem={({ item }) => <Lista data={item} />}
+                    />
+                </ScrollView>
             </View>
         );
     }
@@ -88,9 +97,12 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
+    areaStories: {
+        flex: 1,
+    },
     header: {
         height: 55,
-        backgroundColor: '#fff',
+        backgroundColor: '#fff9',
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
