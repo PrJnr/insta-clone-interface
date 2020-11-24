@@ -14,7 +14,10 @@ x Stories
 
 
 <h2 align="center">
-    <img alt="app" src="./src/img/imgApp.jpeg" width="400px" height="600px" />
+    <img alt="app" src="./src/img/imgApp.jpeg" width="350px" height="600px" />
+</h2>
+<h2 align="center">
+    <img alt="stories" src="./src/img/imgStories.png" width="350px" height="600px" />
 </h2>
 
 
