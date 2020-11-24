@@ -5,6 +5,7 @@ Clone da interface do instagram, afim de estudar estilização em React Native e
 - Adicionar Navegação com TabNavigator;
 - Icones do TabNavigator
 - Comentarios
+x Stories
 
 ## Tecnologias aplicadas nesse projeto
 
